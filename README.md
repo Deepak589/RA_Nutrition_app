@@ -61,6 +61,24 @@ A condensed view — see [`docs/roadmap.md`](docs/roadmap.md) for the full week-
 
 For a high-level overview of the system design, database schemas, and API structure, see [`docs/architecture.md`](docs/architecture.md).
 
+### Workflows & Data Model
+
+Visual walkthroughs (Mermaid diagrams that render directly on GitHub):
+
+- **[`docs/workflows.md`](docs/workflows.md)** — end-to-end journeys: authentication & token refresh, meal logging, the custom meal builder, the recommendation flow, symptom escalation, weekly analytics, and the V3 prediction flow.
+- **[`docs/er-diagram.md`](docs/er-diagram.md)** — the full entity-relationship diagram and the four logical database schemas (`core`, `static`, `tracking`, `intelligence`).
+
+---
+
+## 📚 Documentation
+
+| Doc | What's inside |
+|-----|---------------|
+| [Architecture](docs/architecture.md) | System design, tiers, API structure, intelligence tier (V3) |
+| [Workflows](docs/workflows.md) | Sequence & flow diagrams for every core user journey |
+| [ER Diagram](docs/er-diagram.md) | Data model, entities, relationships, schema grouping |
+| [Roadmap](docs/roadmap.md) | Week-by-week build plan across V1 → V3 |
+
 ---
 
 ## ⚕️ Medical Disclaimer
