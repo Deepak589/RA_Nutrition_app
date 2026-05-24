@@ -26,16 +26,18 @@ The RA Nutrition & Lifestyle App is designed to support — not replace — the 
 | Frontend | **React** + **Vite** |
 | Styling | **Tailwind CSS** |
 | Data fetching / state | **React Query** |
+| Charts | **Recharts** |
+| ML / Deep Learning *(V3)* | **scikit-learn**, **XGBoost**, **PyTorch** (LSTM / GRU / TCN) |
 
 ---
 
 ## 🗺 Roadmap
 
-A condensed view — see [`docs/roadmap.md`](docs/roadmap.md) for the full breakdown.
+A condensed view — see [`docs/roadmap.md`](docs/roadmap.md) for the full week-by-week breakdown.
 
-- **V1 — Foundation:** Core meal logging, symptom tracking, the food library, basic rule-based recommendations, and weekly analytics.
-- **V2 — Insight:** Richer analytics, trend correlations between meals and symptoms, personalized goals, and an improved recommendation experience.
-- **V3 — Connection:** Care-team sharing, exportable reports, reminders & habit nudges, and broader integrations.
+- **V1 — Rule-Based Foundation:** Meal logging, symptom tracking, the food library, transparent rule-based recommendations, and a weekly analytics dashboard.
+- **V2 — Insight & Feedback:** Feedback loops, per-user recommendation tuning, trigger detection, and personalized weekly insights — all without ML.
+- **V3 — ML & Deep Learning Personalization:** Once enough daily logs accumulate, add personalized **flare-risk prediction** and **pain-score forecasting** — combining interpretable classical ML (scikit-learn, XGBoost) with deep learning sequence models (LSTM/GRU/TCN in PyTorch), shipped only where they beat the rule-based baseline.
 
 ---
 
